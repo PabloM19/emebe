@@ -62,3 +62,7 @@ html {
 .tarjeta:hover .contenido {
     opacity: 1;
 }
+
+.clientes-columna:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
