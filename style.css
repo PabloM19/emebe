@@ -63,6 +63,11 @@ html {
     opacity: 1;
 }
 
+
 .clientes-columna:hover {
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+#fondo-clientes {
+    background-color: rgba(0, 0, 0, 0.05);
 }
