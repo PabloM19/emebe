@@ -71,3 +71,29 @@ html {
 #fondo-clientes {
     background-color: rgba(0, 0, 0, 0.05);
 }
+
+ /* Evitar selección de texto para que el swipe funcione bien */
+ .no-select {
+    user-select: none;
+}
+
+/* Evitar que las imágenes sean arrastrables */
+img {
+    pointer-events: none;
+}
+
+/* Personalizar indicadores (bolitas) */
+.carousel-indicators button {
+    width: 12px !important; /* Hace que sean círculos perfectos */
+    height: 12px !important;
+    border-radius: 50% !important; /* Asegura que sean redondas */
+    background-color: #bbb !important; /* Color de las bolitas */
+    margin: 5px !important;
+    border: none !important;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Cambia el color de la bolita activa */
+.carousel-indicators .active {
+    background-color: #555 !important;
+}
