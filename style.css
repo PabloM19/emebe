@@ -97,3 +97,13 @@ img {
 .carousel-indicators .active {
     background-color: #555 !important;
 }
+
+.enlaces{
+    text-decoration: none;
+    color:black;
+}
+
+.enlaces-bajo-mapa{
+    text-decoration: none;
+    color:#8b8b8b;
+}
